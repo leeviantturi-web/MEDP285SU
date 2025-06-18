@@ -1,0 +1,72 @@
+/* START border-box fix */
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+/* END border-box fix */
+
+body {
+        background-color: #149fff;
+        color: #ffff
+
+}
+
+#wrapper {
+width:60%;
+margin: 0px auto;   
+    background-color: #20009f;
+}
+
+header, nav, main, footer {
+    padding: 40px;
+}
+
+header {
+        background-color: #38900f;
+
+}
+
+nav {
+        background-color: #250fff;
+
+}
+
+main {
+        background-color: #5340ff;
+        float:left;
+        width: 70%;
+
+}  
+
+article {
+        background-color: #89404f;
+}    
+
+section {
+    background-color: #4570b5;
+    width: 100px;
+    height: 90px;
+    margin: 10px;
+    float:inline-end;
+    padding: 10px;
+
+
+}
+
+aside {
+        background-color: #20009f;
+        float: right;
+        width: 30%;
+
+}    
+
+footer {
+        background-color: #8298ba;
+    clear: both;
+    float: none;
+}   
+
