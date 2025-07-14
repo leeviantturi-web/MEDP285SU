@@ -1,0 +1,331 @@
+.standard body {
+background-color: #000000;
+background-size: cover;
+color: #bcc6d0;
+padding-top: 0px;
+padding-left: 200px;
+padding-right: 200px;
+margin: 0px;
+text-align: center;
+}
+
+.standard tr {
+    margin:0px;
+border-width: 0px;
+padding:0px;
+}
+.standard th {
+    background-color: #145290;
+    margin: 0px;
+    padding: 15px;
+    background-color: #145290;
+margin: 0px;
+border: 0px none;
+text-align: left;
+font-size: 16px;
+}
+.standard td {
+background-color: #145290;
+margin: 0px;
+border: 0px none;
+padding: 15px;
+text-align: left;
+size: 16px;
+
+}    
+
+
+
+.standard header {
+background-color:#1e3a75;
+padding: 40px;
+border: #b8b6b2 20px solid;
+margin-bottom: 40px;
+
+}
+
+.standard header h2 {
+
+    font-size: 60px;
+    opacity: 0.2;
+}
+
+.standard nav {
+background-color:#486bb5;
+padding: 40px 20px 40px 1px;
+}
+
+.standard nav a {
+
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: lowercase;
+    color: #9499f7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px 40px;
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+.standard nav a:hover {
+    color: #3c04bf;
+}
+
+.standard main {
+background-color:#6897fc;
+text-align: left;
+
+}
+
+.standard main img {
+width: 300px;
+display: block;
+margin: 40px;
+padding: 20px;
+border:#000000 2px dotted;
+background-color: #a2c4fc;
+-webkit-box-reflect: right;
+
+
+}
+
+.standard main img:hover {
+    width: 400px;
+
+}
+
+.standard main{
+background-color:#6897fc;
+text-align: left;
+
+}
+
+.standard main img {
+width: 300px;
+display: block;
+margin: 40px;
+padding: 20px;
+border:#000000 2px dotted;
+background-color: #a2c4fc;
+-webkit-box-reflect: right;
+
+
+}
+
+.standard main img:hover {
+    width: 400px;
+
+}
+
+.standard main h2 {
+    font-size: 33px;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: -4px;
+    word-spacing: 16px;
+    margin: 40px 4px 4px 4px;
+    color: #f5f6f7;
+    outline: 5px double #78fae6;
+    direction: rtl;
+
+}
+
+.standard main p {
+line-height: 22px;
+    font-size: 18px;
+    margin: 20px 0px 0px 0px;
+    color:#000000;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.grid-item main {
+background-color:#6897fc;
+text-align: left;
+
+}
+
+.grid-item h2 {
+    font-size: 33px;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: -4px;
+    word-spacing: 16px;
+    margin: 40px 4px 4px 4px;
+    color: #f5f6f7;
+    outline: 5px double #78fae6;
+    direction: rtl;
+    background-color: #5cb4ea;
+}
+
+.grid-item h4 {
+    font-size: 33px;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: -4px;
+    word-spacing: 16px;
+    margin: 40px 4px 4px 4px;
+    color: #f5f6f7;
+    outline: 5px double #78fae6;
+    direction: rtl;
+    background-color:#6897fc;
+  
+}
+
+.grid-item p {
+    font-size: 18px;
+  font-weight: 800;
+  line-height: 1.6;
+  background-color:#6897fc;
+}
+
+.standard footer {
+background-color:#004ffa;
+padding: 40px 20px 40px 20px;
+}
+
+.standard footer a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+.standard footer a:hover {
+
+    text-decoration: underline;
+}
+
+
+
+/* START border-box fix */
+.history html {
+  box-sizing: border-box;
+}
+.history *,
+.history *:before,
+.history *:after {
+  box-sizing: inherit;
+}
+/* END border-box fix */
+
+.history body  {
+    padding: 0px;
+    margin: 0px;
+    background-color: #000000;
+}
+
+h1, h2, h3, h4, h5, p, ul {
+    margin:0px;
+}
+
+.history #wrapper {
+background-color: #e81a35;
+display: flex;
+max-width: 1000px;
+margin: 0px auto;
+flex-wrap: wrap; /* allow children to wrap */
+}
+
+/* Add padding to all of the #wrapper child elements */
+.history #wrapper>* {
+  padding: 40px;
+}
+
+.history header {
+background-color: #02425d;
+    flex: 1 0 100%; /* grow on, shrink off, span width of parent */
+      order: 1; /* display order regardless of HTML structure */
+}
+
+.history main {
+background-color: #72b8d6; 
+order: 3; /* display order regardless of HTML structure */
+flex: 1 1 500px;
+}
+
+
+.history nav {
+background-color: #5afa67;
+padding: 40px 20px 40px 1px;
+order: 2; /* display order regardless of HTML structure */
+flex: 1 2 500px;
+}
+
+.history nav a {
+
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: lowercase;
+    color: #9499f7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px 40px;
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+.standard nav a:hover {
+    color: #3c04bf;
+}
+
+.history aside {
+background-color:#fff;
+order: 4; /* display order regardless of HTML structure */
+flex: 1 0 200px;
+
+}
+
+.history footer {
+background-color: #b5e4e8;
+    flex: 1 0 100%; /* grow on, shrink off, span width of parent */
+    order: 5; /* display order regardless of HTML structure */
+}
+
+.grid-container {
+    border: 5px #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 2fr repeat(2, 1fr);
+grid-template-rows: repeat(2, minmax(100px, auto));
+gap: 10px
+
+}
+.grid-item {
+    padding: 10px 20px
+}
+
+/* === Image Background Animation === */
+.camera-animation {
+  width: 90%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  animation-name: camera-animation;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes camera-animation {
+      0% {
+        background-image: url('Images/scoopic3.png');
+      }
+      25% {
+        background-image: url('Images/hi8white.png');
+      }
+      50% {
+        background-image: url('Images/vx1000side.avif');
+      }
+      75% {
+        background-image: url('Images/hpx170white.jpg');
+      }
+      100% {
+        background-image: url('Images/panasonic4k.jpg');
+      }
+    }
