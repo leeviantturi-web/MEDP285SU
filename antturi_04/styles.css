@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount:slnt,wght@-8,100..900&display=swap');
+
+body {
+    background-color: #d2cdcd;
+    color: #000000;
+    padding-top: 0px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin: 0px;
+    text-align: center;
+    
+}
+
+table {
+    border: #fefdfd 4px dotted;
+    border-radius: 8px;
+    margin: 40px 0px;
+    padding: 0px;
+    font-family: "Bitcount", system-ui;
+  font-optical-sizing: auto;
+
+}
+
+tr {
+    margin: 0px;
+    border-width: 3px;
+    padding: 0px;
+}
+
+th {
+    background-color: #376b9f;
+    margin: 0px;
+    padding: 0px;
+}
+
+td {
+    background-color: #376b9f;
+    margin: 0px;
+    border: 0px none;
+
+}
+
+
+
+header {
+    background-color: #1e3a75;
+    padding: 40px;
+    border: #b8b6b2 20px solid;
+    margin-bottom: 40px;
+
+}
+
+header h2 {
+
+    font-size: 60px;
+    opacity: 0.2;
+}
+
+nav {
+    background-color: #486bb5;
+    padding: 40px 20px 40px 20px;
+}
+
+nav a {
+
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: lowercase;
+    color: #9499f7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px 40px;
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    color: #3c04bf;
+}
+
+main {
+    background-color: #6897fc;
+    text-align: left;
+
+}
+
+main h2 img {
+    width: 300px;
+    display: block;
+    margin: 40px;
+    padding: 20px;
+    border: #000000 2px dotted;
+    background-color: #a2c4fc;
+    -webkit-box-reflect: right;
+
+
+}
+
+main h2 img:hover {
+    width: 400px;
+
+}
+
+main h2 {
+    font-size: 33px;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: -8px;
+    word-spacing: 16px;
+    margin: 40px 0px 0px 0px;
+    color: #f5f6f7;
+    outline: 5px dotted #78fae6;
+    direction: rtl;
+
+}
+
+main p {
+    line-height: 22px;
+    font-size: 18px;
+    margin: 20px 0px 0px 0px;
+    color: #000000;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+footer {
+    background-color: #004ffa;
+    padding: 40px 20px 40px 20px;
+
+    footer a {
+        color: #000000;
+        text-decoration: none;
+        font-size: 18px;
+
+    }
+
+    footer a:hover {
+
+        text-decoration: underline;
+    }
+
+}
